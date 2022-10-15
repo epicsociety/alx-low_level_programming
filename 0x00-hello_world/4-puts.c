@@ -1,9 +1,12 @@
 #include<stdio.h>
-
+/*
+ * Main function prints a string line using puts
+ *
+ * Return: 0
+*/
 int main ()
 {
-	char mystr [] = "Programming is like building a multilingual puzzle,";
-
+	char mystr [] = "\"Programming is like building a multilingual puzzle";
 	puts(mystr);
 
 	return 0;
