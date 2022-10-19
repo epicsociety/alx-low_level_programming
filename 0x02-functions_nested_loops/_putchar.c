@@ -1,11 +1,14 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /** 
- *main - is a function putchar
+ * _putchar - writes the character c to stdout
+ * @c: the character to print
  *
- *Return: 0
+ *
+ * Return: 1 on success
+ * On error, -1 is returned, and errno is set appropriately
  */
-int putchar(const char *string)
+int _putchar(char c)
 { 
-	return (0);
+	return (write(1, &c, 1));
 }
