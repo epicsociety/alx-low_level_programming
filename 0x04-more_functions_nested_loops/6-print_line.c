@@ -7,9 +7,9 @@
 */
 void print_line(int n)
 {
-	int count = 0;
+	int count;
 
-	while (n != 0)
+	while (n > 0)
 	{
 		n = n / 10;
 		count++;
