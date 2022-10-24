@@ -1,7 +1,8 @@
 #include "main.h"
 
-/** 
+/**
  *print_diagonal - draws a diagonal line on the terminal
+ *@n: it is the input variable
  *
  * Return void or \n if n is 0
 */
