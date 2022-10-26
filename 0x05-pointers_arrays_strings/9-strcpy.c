@@ -8,7 +8,7 @@
  * Return: the pointer to dest
 */
 char *_strcpy(char *dest, char *src)
-{ 
+{
 	int n = 0;
 
 	while (src[n])
