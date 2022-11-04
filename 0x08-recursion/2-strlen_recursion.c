@@ -2,14 +2,14 @@
 
 /**
  * _strlen_recursion - returns the lenth of a string
- * @s: a string which functins as a pointer 
+ * @s: a string which functins as a pointer
  *
  * Return: 0
 */
 int _strlen_recursion(char *s)
 {
 	if (*s == '\0')
-		return 0;
+		return (0);
 	else
-		return 1 + _strlen_recursion ( s + 1);
+		return (1 + _strlen_recursion(s + 1));
 }
