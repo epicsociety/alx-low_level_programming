@@ -14,8 +14,8 @@ int square_root(int a, int b)
 	{
 		return (a);
 	}
-	else if ( a * a > b)
-	{ 
+	else if (a * a > b)
+	{
 		return (-1);
 	}
 	else
@@ -29,12 +29,12 @@ int square_root(int a, int b)
  * _sqrt_recursion - returns the natural square root of a number
  * @n: interger
  *
- * Return: 0 if success and -1 if n does not have 
+ * Return: 0 if success and -1 if n does not have
  * a naturalsqr root
 */
 int _sqrt_recursion(int n)
 {
 	int i = 1;
-	
+
 	return (square_root(i, n));
 }
