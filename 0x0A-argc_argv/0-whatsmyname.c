@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "stdio.h"
 
 /**
  * main - prints the program's name
@@ -8,10 +8,8 @@
 */
 int main(int argc, char *argv[])
 {
-	int i;
+	(void)argc;
 
-	for (i = 0; i < argc; i++)
-	printf("%s ", argv[0]);
-	printf("\n");
+	printf("%s\n", argv[0]);
 	return (0);
 }
