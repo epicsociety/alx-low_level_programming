@@ -14,3 +14,18 @@ gcc my_program .c -L. -lcreate-o my_program
 -l says “link with this library file”
 create is the name of our library. Note that we omitted the “lib” prefix and “.a” extension. The linker attaches these parts back to the name of the library to create a name of a file to look for.
 -o my_program says “name the executable file my_program”
+
+
+gcc -c *.c
+ 
+ (This will create a .o file from all the .c files)
+	 
+	 Then to archive do
+	  ar -rc libmy.a *.o
+	   
+	   Then to index do
+	    ranlib libmy.a
+	     
+	     To confirm
+	      
+	      ar -t libmy.a
