@@ -6,7 +6,7 @@
  *@name: is the member of the struct
  *@age: is the second member of the struct
  *@owner: is the third member
-
+ *
 */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
