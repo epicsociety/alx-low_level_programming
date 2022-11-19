@@ -24,7 +24,7 @@ void print_all(const char * const format, ...)
 
 	while (format && format[n])
 	{
-		if( n == (i - 1))
+		if (n == (i - 1))
 		{
 			sep = "";
 		}
