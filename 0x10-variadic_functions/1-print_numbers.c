@@ -22,14 +22,12 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 		if (separator == NULL)
 		{
-
 		}
-		if (separator != NULL)
-		{
-			printf("%s", separator);
-		}
-		printf("%d", value);
-	}
+		if (separator != NULL && n != (i - 1)
+				{
+				printf("%s", separator);
+				printf("%d", value);
+				}
 	printf("\n");
 	va_end(arguments);
 }
