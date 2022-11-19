@@ -6,13 +6,14 @@
  * print_all - Entry Point
  * c = char, i = int, f = float, s = char * (if null print (nil))
  * @format: list of arg types
- * 
+ *
  * Return: 0
 */
 void print_all(const char * const format, ...)
 {
 	va_list arguments;
-	int i = 0; int n = 0;
+	int i = 0;
+	int n = 0;
 	char *str;
 	char *sep = ", ";
 
@@ -23,13 +24,13 @@ void print_all(const char * const format, ...)
 
 	while (format && format[n])
 	{
-		if ( n == (i - 1))
+		if( n == (i - 1))
 		{
 			sep = "";
 		}
 		switch (format[n])
 		{
-			case 'c': 
+			case 'c':
 				printf("%c%s", va_arg(arguments, int), sep);
 				break;
 			case 'i':
@@ -49,4 +50,4 @@ void print_all(const char * const format, ...)
 	}
 	printf("\n");
 	va_end(arguments);
-}	
+}
