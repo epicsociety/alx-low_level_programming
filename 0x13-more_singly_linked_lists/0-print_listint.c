@@ -10,13 +10,13 @@
 */
 size_t print_listint(const listint_t *h)
 {
-	int nodes;
+	size_t count;
 
 	while (h != NULL)
 	{
 		printf("%d\n", h->n);
-		nodes++;
 		h = h->next;
+		count++;
 	}
-	return (nodes);
+	return (count);
 }
