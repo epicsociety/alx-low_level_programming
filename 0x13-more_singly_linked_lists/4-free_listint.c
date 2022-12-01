@@ -9,10 +9,12 @@
 */
 void free_listint(listint_t *head)
 {
+	listint_t next;
 
 	while (head != NULL)
 
-		head = head->next; /* where does the head points*/
+		next = head->next; /* where does the head points*/
 		/* next stores the address of the next node"*/
 		free(head);
+		head = next;
 }
