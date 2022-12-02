@@ -17,5 +17,5 @@ void free_listint(listint_t *head)
 		/* next stores the address of the next node"*/
 		free(head);
 		head = next;
-	}	
+	}
 }
