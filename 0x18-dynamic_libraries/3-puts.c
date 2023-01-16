@@ -6,13 +6,13 @@
  *
  * Return: void
 */
-void _puts(char *str)
+void _puts(char *s)
 {
 	int i = 0;
 
-	for (; str[i] != '\0'; str++)
+	for (; s[i] != '\0'; s++)
 	{
-		_putchar(str[i]);
+		_putchar(s[i]);
 	}
 	_putchar('\n');
 }
