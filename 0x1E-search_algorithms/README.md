@@ -8,3 +8,7 @@
 ##  Interpolation search algorithm
 ## Exponential search algorithm
 
+
+** time complexity is the relationship between the size of input and time **
+** space complexity is the relationship between number of times the loops run
+and  required space **
