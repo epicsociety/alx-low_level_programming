@@ -1,7 +1,7 @@
 #include "search_algos.h"
 #include <stdio.h>
 /**
- * advanced_binary - searches for a value in a sorted array with binary searches
+ * advanced_binary - searches for a value in a sorted array with binary search
  * @array: pointer to the first element in the array
  * @size: the size of the array
  * @value: value to be searched
